@@ -4,8 +4,8 @@ Using HTML, CSS, and Bootstrap I have made a portfolio page about myself and my 
 
 https://gavinmr1.github.io/Professional-Portfolio/
 
-![Portfolio screenshot3](/Assets/Screenshot3.png?raw=true "Screenshot3")
+![Portfolio screenshot3](/Assets/Images/Screenshot3.png?raw=true "Screenshot3")
 
-![Portfolio screenshot4](/Assets/Screenshot4.png?raw=true "Screenshot4")
+![Portfolio screenshot4](/Assets/Images/Screenshot4.png?raw=true "Screenshot4")
 
-![Portfolio screenshot5](/Assets/Screenshot5.png?raw=true "Screenshot5")
+![Portfolio screenshot5](/Assets/Images/Screenshot5.png?raw=true "Screenshot5")
