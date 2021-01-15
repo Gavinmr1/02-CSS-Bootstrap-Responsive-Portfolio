@@ -1,88 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="Assets/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html">Gavin Riggs</a>
-        <div class="collapse navbar-collapse">
+            <a class="navbar-brand" href="./index.html">Gavin Riggs</a>
+            <div class="collapse navbar-collapse">
 
-        <ul class="navbar-nav ml-auto justify-content-end">
-            <li class="nav-item" id="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-            <li class="nav-item" id="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item" id="nav-item"></li>          
-                <a class="nav-link" href="./index.html">About</a>
-            </li>
-        </ul>
-        </div>
+                <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item" id="nav-item"></li>
+                    <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
     <div class="wrapper">
 
-    <row class="row">
-        <div class="col-12">
-            <div class="col-8">
-                <h1 id="h1"><strong>Portfolio</strong></h1>
+        <row class="row">
+            <div class="col-12">
+                <div class="col-8">
+                    <h1 id="h1"><strong>Portfolio</strong></h1>
+                </div>
+                <row class="row">
+                    <div class="col-6">
+                        <img src="./Assets/Images/Screenshot.png" alt="Work day scheduler" class="img-thumbnail"
+                            alt="...">
+                    </div>
+                    <div class="col-6">
+                        <h4>Work Day Scheduler</h4>
+                        <article>The scheduler helps organize a users daily activities, provides a current date, and
+                            tracks what is done based on the time of day.</article>
+                        <a class="nav-link"
+                            href="https://gavinmr1.github.io/Third-Party-APIs-Work-Day-Scheduler/">Checkout it out
+                            here!</a>
+                        <a class="nav-link"
+                            href="https://github.com/Gavinmr1/Third-Party-APIs-Work-Day-Scheduler">Github Link</a>
+                    </div>
+                </row>
+                <row class="row">
+                    <div class="col-6">
+                        <img src="./Assets/Images/Screenshot1.png" alt="Weather Dashboard" class="img-thumbnail"
+                            alt="...">
+                    </div>
+                    <div class="col-6">
+                        <h4>Weather Dashboard</h4>
+                        <article>This page displays the temperature, wind speed, humidity, UV index and a five day
+                            forcast based on the users search.</article>
+                        <a class="nav-link" href="https://gavinmr1.github.io/Weather-Dashboard/">Checkout it out
+                            here!</a>
+                        <a class="nav-link" href="https://github.com/Gavinmr1/Weather-Dashboard">Github Link</a>
+                    </div>
+                </row>
+                <row class="row">
+                    <div class="col-6">
+                        <img src="./Assets/Images/Screenshot2.png" alt="Down To Earth Travel" class="img-thumbnail">
+                    </div>
+                    <div class="col-6">
+                        <h4>Down To Earth Travel</h4>
+                        <article>This basic travel site provides the user with information based on their location
+                            search. The page will display a map, currency, hotels, and temperature with the use of APIs.
+                        </article>
+                        <a class="nav-link" href="https://plabounty.github.io/Project_1_Crazy_Coderz/">Checkout it out
+                            here!</a>
+                        <a class="nav-link" href="https://github.com/Plabounty/Project_1_Crazy_Coderz">Github Link</a>
+                    </div>
+                </row>
             </div>
-            <row class="row">
-                <div class="col-6">
-                    <img src="./Assets/Images/Screenshot.png" alt="Work day scheduler" class="img-thumbnail" alt="...">
-                </div>
-                <div class="col-6">
-                    <h4>Work Day Scheduler</h4>
-                    <article>The scheduler helps organize a users daily activities, provides a current date, and tracks what is done based on the time of day.</article>
-                    <a class="nav-link" href="https://gavinmr1.github.io/Third-Party-APIs-Work-Day-Scheduler/">Checkout it out here!</a>
-                    <a class="nav-link" href="https://github.com/Gavinmr1/Third-Party-APIs-Work-Day-Scheduler">Github Link</a>
-                </div>
-            </row>
-            <row class="row">
-                <div class="col-6">
-                    <img src="./Assets/Images/Screenshot1.png" alt="Weather Dashboard" class="img-thumbnail" alt="...">
-                </div>
-                <div class="col-6">
-                    <h4>Weather Dashboard</h4>
-                    <article>This page displays the temperature, wind speed, humidity, UV index and a five day forcast based on the users search.</article>
-                    <a class="nav-link" href="https://gavinmr1.github.io/Weather-Dashboard/">Checkout it out here!</a>
-                    <a class="nav-link" href="https://github.com/Gavinmr1/Weather-Dashboard">Github Link</a>
-                </div>
-            </row>
-            <row class="row">
-                <div class="col-6">
-                    <img src="./Assets/Images/Screenshot2.png" alt="Down To Earth Travel" class="img-thumbnail">
-                </div>
-                <div class="col-6">
-                    <h4>Down To Earth Travel</h4>
-                    <article>This basic travel site provides the user with information based on their location search. The page will display a map, currency, hotels, and temperature with the use of APIs.</article>
-                    <a class="nav-link" href="https://plabounty.github.io/Project_1_Crazy_Coderz/">Checkout it out here!</a>
-                    <a class="nav-link" href="https://github.com/Plabounty/Project_1_Crazy_Coderz">Github Link</a>
-                </div>
-            </row>
-        </div>
     </div>
 
     <footer class="footer">
         <div class="row">
             Copyright Gavin Riggs 2020
             <div class="col-12">
-            <a class="nav-link" href="https://www.linkedin.com/in/gavin-riggs-88b7421b5/">Linkedin</a>
-            <a class="nav-link" href="https://github.com/Gavinmr1">Github</a>
-            <a class="nav-link" href="https://drive.google.com/file/d/1SIAD66L94eM-Qkjiy--ax0u0nIO_Ina-/view?usp=sharing">Resume</a>
+                <a class="nav-link" href="https://www.linkedin.com/in/gavin-riggs-88b7421b5/">Linkedin</a>
+                <a class="nav-link" href="https://github.com/Gavinmr1">Github</a>
+                <a class="nav-link"
+                    href="https://drive.google.com/file/d/1SIAD66L94eM-Qkjiy--ax0u0nIO_Ina-/view?usp=sharing">Resume</a>
             </div>
         </div>
     </footer>
